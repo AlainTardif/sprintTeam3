@@ -12,7 +12,7 @@ test('should log and return "Hello world!"', () => {
   const expected = 'Hello world!';
 
   jest.isolateModules(() => {
-    const result = require('../main');
+    const result = require('../src/core/main');
 
     expect(result).toBe(expected);
     expect(consoleSpy).toHaveBeenCalledWith(expected);
