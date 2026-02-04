@@ -1,4 +1,4 @@
-import { ProductService } from './core/services/product-service.js'
+import { ProductService } from './src/core/services/product-service.js'
 
 const productService = new ProductService()
 
