@@ -2,7 +2,7 @@
 
 Application web de gestion de produits (CRUD) développée en JavaScript vanilla avec une architecture MVC.
 
-## Équipe Michel - Aurélien - Anthony - Alain
+## Équipe Michel - Aurélien - Antony - Alain
 
 **Team 3** - Sprint Agile AELION
 

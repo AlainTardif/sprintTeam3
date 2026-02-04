@@ -7,7 +7,9 @@
   "scripts": {
     "test": "jest --config jest.config.js",
     "test:watch": "jest --config jest.config.js --watch",
-    "api:start": "json-server datas/db.json --port 3000"
+    "api:start": "json-server datas/db.json --port 3000",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
   },
   "keywords": [
     "JS",
@@ -16,8 +18,9 @@
   ],
   "author": "Alain Tardif",
   "license": "UNLICENSED",
-"devDependencies": {
-  "jest": "^30.2.0",
-  "json-server": "^0.17.4"
-}
+  "devDependencies": {
+    "cypress": "^15.10.0",
+    "jest": "^30.2.0",
+    "json-server": "^0.17.4"
+  }
 }
