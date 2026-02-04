@@ -1,25 +1,32 @@
 {
   "products": [
     {
-      "id": 1,
       "name": "Clavier mécanique",
       "price": 89.99,
-      "category": "Informatique",
-      "detail": "Clavier RGB switches Cherry MX"
+      "category": "Électronique",
+      "detail": "Clavier RGB switches Cherry MX",
+      "id": 1
     },
     {
-      "id": 2,
-      "name": "Souris ergonomique",
-      "price": 45.50,
-      "category": "Informatique",
-      "detail": "Souris verticale sans fil"
+      "name": "Souris ergonomiques",
+      "price": 45.5,
+      "category": "Alimentation",
+      "detail": "Souris verticale sans fil",
+      "id": 2
     },
     {
       "id": 3,
       "name": "Casque audio",
-      "price": 129.00,
+      "price": 129,
       "category": "Audio",
       "detail": "Casque Bluetooth réduction de bruit"
+    },
+    {
+      "name": "Michel",
+      "price": 100000,
+      "category": "Beauté",
+      "detail": "comme il est beau",
+      "id": 4
     }
   ]
 }

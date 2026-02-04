@@ -2,7 +2,7 @@ import { HttpClient } from '../http/http-client.js'
 
 export class ProductService {
     #httpClient
-    #endPoint = 'users'
+    #endPoint = 'products'
 
     constructor() {
         this.#httpClient = new HttpClient()
