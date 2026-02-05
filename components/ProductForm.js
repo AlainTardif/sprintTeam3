@@ -1,4 +1,5 @@
 import { ProductService } from '../src/core/services/product-service.js'
+import { Toast } from './Toast.js'
 
 /**
  * ProductForm component - Manages the modal form for create/update
@@ -62,12 +63,12 @@ export class ProductForm {
         const category = document.getElementById('productCategory').value
 
         if (!name || !price || !category) {
-            alert('Veuillez remplir tous les champs obligatoires.')
+            Toast.warning('Veuillez remplir tous les champs obligatoires.')
             return false
         }
 
         if (parseFloat(price) < 0) {
-            alert('Le prix doit être positif.')
+            Toast.warning('Le prix doit être positif.')
             return false
         }
 
@@ -101,7 +102,7 @@ export class ProductForm {
             return result
         } catch (error) {
             console.error('Failed to save product:', error)
-            alert('Erreur lors de la sauvegarde.')
+            Toast.error('Erreur lors de la sauvegarde.')
             return null
         }
     }

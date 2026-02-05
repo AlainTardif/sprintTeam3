@@ -9,17 +9,17 @@
     },
     {
       "name": "Souris ergonomiques",
-      "price": 45.5,
+      "price": 4,
       "category": "Alimentation",
       "detail": "Souris verticale sans fil",
       "id": 2
     },
     {
-      "id": 3,
       "name": "Casque audio",
       "price": 129,
-      "category": "Audio",
-      "detail": "Casque Bluetooth réduction de bruit"
+      "category": "Électronique",
+      "detail": "Casque Bluetooth réduction de bruit",
+      "id": 3
     },
     {
       "name": "Michel",
@@ -27,6 +27,13 @@
       "category": "Beauté",
       "detail": "comme il est beau",
       "id": 4
+    },
+    {
+      "name": "toto",
+      "price": 50,
+      "category": "Maison",
+      "detail": "faire",
+      "id": 5
     }
   ]
 }
