@@ -15,13 +15,6 @@
       "id": 2
     },
     {
-      "name": "Casque audio",
-      "price": 129,
-      "category": "Électronique",
-      "detail": "Casque Bluetooth réduction de bruit",
-      "id": 3
-    },
-    {
       "name": "Michel",
       "price": 100000,
       "category": "Beauté",
@@ -34,6 +27,20 @@
       "category": "Maison",
       "detail": "faire",
       "id": 5
+    },
+    {
+      "name": "christian",
+      "price": 500,
+      "category": "Livres",
+      "detail": "je choisis de lire un film",
+      "id": 6
+    },
+    {
+      "name": "Casque pour abeille",
+      "price": 10000,
+      "category": "Vêtements",
+      "detail": "Casque audio pour abeille sourde",
+      "id": 7
     }
   ]
 }
